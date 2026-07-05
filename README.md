@@ -2,7 +2,7 @@
 
 **Cloud Security Engineer — "Security Controls are Production Imperatives"**
 
-CISSP · GWAPT · GCIH · GSEC · Security+ | Current DoD Secret clearance | Writing at [jhuk.tech](https://jhuk.tech)
+CISSP · GWAPT · GCIH · GSEC · Security+ | Cleared DoD | Writing at [jhuk.tech](https://jhuk.tech)
 
 Each of my projects adheres to the same rules I would hold production code to: Infrastructure as code, changes shipped through reviewed pull requests, keyless CI/CD via GitHub OIDC (no stored AWS credentials anywhere), and test scripts that prove the controls actually block what they claim to.
 
