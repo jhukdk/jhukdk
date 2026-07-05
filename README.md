@@ -1,6 +1,6 @@
 # David J. Kim
 
-**Cloud Security Engineer — Security Controls are Production Imperatives.**
+**Cloud Security Engineer — "Security Controls are Production Imperatives"**
 
 CISSP · GWAPT · GCIH · GSEC · Security+ | Current DoD Secret clearance | Writing at [jhuk.tech](https://jhuk.tech)
 
