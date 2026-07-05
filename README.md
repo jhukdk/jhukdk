@@ -4,11 +4,11 @@
 
 CISSP · GWAPT · GCIH · GSEC · Security+ | Current DoD Secret clearance | Writing at [jhuk.tech](https://jhuk.tech)
 
-Each of my project repositories adheres to the same rules I would hold production code to: Infrastructure as code, changes shipped through reviewed pull requests, keyless CI/CD via GitHub OIDC (no stored AWS credentials anywhere), and test scripts that prove the controls actually block what they claim to.
+Each of my projects adheres to the same rules I would hold production code to: Infrastructure as code, changes shipped through reviewed pull requests, keyless CI/CD via GitHub OIDC (no stored AWS credentials anywhere), and test scripts that prove the controls actually block what they claim to.
 
-## The projects — one connected stack 
+## The projects — One Interconnected Stack 
 
-My project repos are not isolated demos. They are layers that comprise a live Production system: my blog runs in blog-migration, the WAF layer defends it, and Splunk ingests its logs. 
+My project repos comprise a live system in Production: my blog runs in blog-migration, the WAF layer defends it, and Splunk ingests its logs. 
 
 ```
                     ┌──────────────────────────────────────────────┐
@@ -41,4 +41,4 @@ My project repos are not isolated demos. They are layers that comprise a live Pr
 
 Security solutions architect at Akamai (cloud/edge security), ISSO and RMF compliance work supporting the Defense Health Agency, and hands-on AWS security engineering. Offensive side kept sharp on Hack The Box. Longer-form write-ups at [jhuk.tech](https://jhuk.tech).
 
-📫 Reach me via [jhuk.tech](https://jhuk.tech) or [LinkedIn](https://www.linkedin.com/in/jhuktech).
+📫 Reach me via [jhukdk@gmail.com](mailto:jhukdk@gmail.com) or [LinkedIn](https://www.linkedin.com/in/jhuktech).
