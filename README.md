@@ -6,9 +6,9 @@ CISSP · GWAPT · GCIH · GSEC · Security+ | Current DoD Secret clearance | Wri
 
 Each of my projects adheres to the same rules I would hold production code to: Infrastructure as code, changes shipped through reviewed pull requests, keyless CI/CD via GitHub OIDC (no stored AWS credentials anywhere), and test scripts that prove the controls actually block what they claim to.
 
-## The projects — One Interconnected Stack 
+## My Projects — One Interconnected Stack 
 
-My project repos comprise a live system in Production: my blog runs in blog-migration, the WAF layer defends it, and Splunk ingests its logs. 
+My repos comprise a live system in Production: my blog runs in blog-migration, the WAF layer defends it, and Splunk ingests its logs. 
 
 ```
                     ┌──────────────────────────────────────────────┐
