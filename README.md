@@ -10,19 +10,6 @@ Each of my projects adheres to the same rules I would hold production code to: I
 
 My repos comprise a live system in Production: my blog runs in blog-migration, the WAF layer defends it, and Splunk ingests its logs. 
 
-```
-                    ┌──────────────────────────────────────────────┐
- waf-as-code ──────▶│  WAFv2 rules · attack-sim tests · GitOps     │
-                    └──────────────────┬───────────────────────────┘
-                                       ▼
- blog-migration ───▶  Hugo → S3 → CloudFront → jhuk.tech (live)
-                                       │ access logs
-                                       ▼
- splunk-enterprise ▶  S3 → SNS → SQS → Splunk on EC2 (index=cloudfront)
-                                       ▲
- waf-automation ───▶  Boto3 lifecycle changes against the production Web ACL
-```
-
 | Repo | What it demonstrates |
 |---|---|
 | [**waf-as-code**](https://github.com/jhukdk/waf-as-code) | AWS WAFv2 managed entirely as code: managed + custom rules, rate limiting, full logging, an automated attack-simulation test suite, and a plan-on-PR / apply-on-merge GitOps pipeline. Includes tuning a noisy managed rule and a case where the tests caught a real coverage gap. |
