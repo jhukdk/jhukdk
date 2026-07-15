@@ -17,7 +17,7 @@ My repos comprise a live system in Production: my blog runs in blog-migration, t
 | [**splunk-enterprise-integration**](https://github.com/jhukdk/splunk-enterprise-integration) | Log ingestion pipeline as IaC: CloudFront access logs → S3 → SNS → SQS → Splunk Enterprise (Docker on EC2, EBS-persisted, IAM instance role — zero static keys). WAF and CloudTrail ingestion on the roadmap. |
 | [**aws-waf-automation-boto3**](https://github.com/jhukdk/python-tutor-for-boto3awswaf) | WAFv2 automation and traffic analysis in Python/Boto3, executed against live infrastructure: Web ACL inventory, sampled-request and CloudWatch metric analysis, and lock-safe IP-set lifecycle changes (`get → modify → update(LockToken)`) on a production web ACL. |
 
-## Recurring themes
+## Recurring Themes
 
 - **GitOps for security config** — every rule change is a reviewed PR with a posted `terraform plan`; merge applies it.
 - **Keyless cloud auth** — GitHub Actions assumes a repo-scoped IAM role via OIDC; no long-lived AWS keys exist in any repo.
